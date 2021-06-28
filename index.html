@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Another one-->
+  <script src="https://kit.fontawesome.com/be2ef84a26.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" style="color: white;">Pixabay Gallery</a>
+    </div>
+  <div class="container">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search Photos" id="searchField">
+      <span class="input-group-btn">
+        <button class="btn btn-search" type="button" id="searchButton"><i class="fas fa-search"></i>
+          Search</button>
+      </span>
+      </div>
+      </div>
+
+   </nav>
+    <main>
+      <div class="results">
+        <select name="results" id="results">
+          <option value="9">Results per page</option>
+          <option value="6">6</option>
+          <option value="9">9 (Default)</option>
+          <option value="12">12</option>
+          <option value="15">15 </option>
+          <option value="18">18</option>
+        </select>
+
+    
+      </div>
+    
+    </main>
+  </br>
+</br>
+</br>
+</br>
+  <div class="search-res">
+    <div class="row" id="photo">
+    </div>
+  </div>
+
+  <center>
+    <div id="paginationContainer">
+<!-- Pagination buttons go here -->
+    </div>
+</center>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

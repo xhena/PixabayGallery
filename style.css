@@ -1,0 +1,167 @@
+html {
+    margin: 5em auto;
+    
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ 
+  body{
+      margin: 0 auto;
+  }
+
+  .form-control{
+      font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+  .fixed-top.navbar-light.bg-light{
+              background: rgb(51, 51, 51) !important;
+  }
+
+
+a.navbar-brand{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.btn-search {
+    background: #424242;
+    border-radius: 0;
+    color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #1c1c1c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    
+  }
+
+  .btn-search:link, .btn-search:visited {
+    color: #fff;
+  }
+  .btn-search:active, .btn-search:hover {
+    background: #1c1c1c;
+    color: #fff;
+  }
+
+
+  /*  gjatesia e searchit */
+ @media (min-width: 650px){
+.input-group{
+    max-width: 700px;
+    margin-left: auto;;
+    margin-right: auto;
+
+}
+  }
+ 
+h6{
+  text-align: center;
+  margin-top: 10px;
+}
+
+p{
+  text-align: center;
+}
+
+
+img{
+  width: 100%;
+  margin: 0 auto;
+  border: solid 10px #ffffff;
+}
+ 
+
+ h2{
+   font-size: medium;
+   padding-left: 30px;
+ }
+
+ div#photo .image-item {
+  width: 33%;
+  display: inline-block;
+}
+
+ @media (max-width: 768px){
+  #photo{
+      margin-top: auto;
+      
+    }
+
+    div#photo .image-item {
+      width: 100%;
+      display: inline-block;
+  }
+
+    }
+    .results {
+      margin-right: auto;
+      position: absolute;
+      margin: 3rem 0 0 10rem;
+    }
+
+
+    @media only screen and (max-width: 480px) {
+      .main-container {
+        padding: 1rem;
+      }
+    
+      .results {
+        margin: 1rem 0 0 1rem;
+      }
+    }
+    
+  .social{
+	  text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fffafa;
+    color: rgb(0, 0, 0);
+	border-radius: 15px;
+	font-size: 18px;
+  }
+  .teksti{
+	  margin-bottom:0;
+  }
+
+  .buttons {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.theButtonsList {
+    display: inline-block;
+}
+
+#paginationContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+.theButtonsList{
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+    list-style: none;
+    cursor: pointer;
+}
+
+.theButtonsList li{
+
+  margin-right: 10px;
+
+}
+
+
